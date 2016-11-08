@@ -4,4 +4,4 @@ MAINTAINER Nicolas Bonaldi <nicolas.bonaldi@gmail.com>
 
 RUN gem install mdl
 
-CMD ["mdl", "/mnt"]
+CMD ["mdl", "-r", "~MD013", "/mnt"]
