@@ -4,4 +4,4 @@
 
 ## Usage
 
-docker run -v $PWD:/mount ninux/mdl
+docker run -v $PWD:/mnt ninux/mdl
