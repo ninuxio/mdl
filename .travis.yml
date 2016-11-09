@@ -10,3 +10,4 @@ before_install:
 script:
   - docker run -v $PWD:/mnt ninux/mdl echo Ok from MDL
   - docker run -v $PWD:/mnt ninux/mdl
+  - docker run --rm -i lukasmartinelli/hadolint < Dockerfile
