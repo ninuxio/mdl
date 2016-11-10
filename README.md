@@ -19,6 +19,7 @@ docker run -v $PWD:/mnt ninux/mdl mdl <parameters> <target>
 ```
 
 #### Example
+
 ```
-docker run -v $PWD:/mnt ninux/mdl mdl -r ~MD013,~MD026 /mnt
+docker run -v $PWD:/mnt ninux/mdl mdl -r '~MD013,~MD026' /mnt
 ```
