@@ -4,22 +4,22 @@
 
 ## Usage
 
-docker run -v $PWD:/mnt ninux/mdl
+docker run -v $PWD:/mdl ninux/mdl
 
 ### Default parameters
 
 ```
--r ~MD013 /mnt
+-r ~MD013 /mdl
 ```
 
 ### Override  default behaviour
 
 ```
-docker run -v $PWD:/mnt ninux/mdl mdl <parameters> <target>
+docker run -v $PWD:/mdl ninux/mdl mdl <parameters> <target>
 ```
 
 #### Example
 
 ```
-docker run -v $PWD:/mnt ninux/mdl mdl -r '~MD013,~MD026' /mnt
+docker run -v $PWD:/mdl ninux/mdl mdl -r '~MD013,~MD026' /mdl
 ```

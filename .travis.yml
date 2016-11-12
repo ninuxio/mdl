@@ -8,6 +8,6 @@ before_install:
   - docker build -t ninux/mdl:latest .
 
 script:
-  - docker run -v $PWD:/mnt ninux/mdl echo Ok from MDL
-  - docker run -v $PWD:/mnt ninux/mdl
+  - docker run -v $PWD:/mdl ninux/mdl echo Ok from MDL
+  - docker run -v $PWD:/mdl ninux/mdl
   - docker run --rm -i lukasmartinelli/hadolint < Dockerfile
